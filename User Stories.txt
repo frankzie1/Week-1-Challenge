@@ -1,1 +1,73 @@
-
+Epic (User)- US1				++  Epic (Admin) - US6
+						++
+As a user					++  As Admin
+I want to make a booking			++  I want a website that provides film booking system and trailers
+So that I can watch a movie			++  So that customers can book films to watch
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Acceptance criteria:				++  Acceptance criteria:
+Given the user is on booking page		++  Given the user is on Admin login page
+When they select a movie (US2)			++  And entered their login details
+And they select the amount of tickets (US3)	++  And clicked 'Log In'
+And they choose the type of tickets (US4)	++  Then they gain Admin access to the booking system
+And they chose seats (US5)			++  +++++++++++++++++++++++++++++++++++++++++++++++++
+And they enter their details			++  +++++++++++++++++++++++++++++++++++++++++++++++++
+And they enter their card details		++  
+And they click Book/Buy				++  US7
+Then they are sent their ticket codes via email	++
+++++++++++++++++++++++++++++++++++++++++++++++++++  As Admin
+++++++++++++++++++++++++++++++++++++++++++++++++++  I want an Admin access page
+				  		++  So that I can control the entire booking system
+US2						++  +++++++++++++++++++++++++++++++++++++++++++++++++
+						++  
+As a user					++  Acceptance criteria:			  
+I want to select a movie			    Given the user is on Admin login page	
+So that I can book it				++  And entered their login details  
+++++++++++++++++++++++++++++++++++++++++++++++++++  And clicked 'Log In'
+Acceptance criteria:				++  Then they gain Admin access to the booking system
+Given the user is on booking page		++  +++++++++++++++++++++++++++++++++++++++++++++++++
+When they select a movie from the selection page++  +++++++++++++++++++++++++++++++++++++++++++++++++
+Then they are asked to select amount of tickets	++  
+++++++++++++++++++++++++++++++++++++++++++++++++++  US8
++++++++++++++++++++++++++++++++++++++++++++++++++   As Admin
+						    I want to embedd videos hosted at a partner's site
+US3						    So that users can watch trailers of upcoming movies
+						    +++++++++++++++++++++++++++++++++++++++++++++++++
+As a user					    
+I want to select the amount of tickets		    Acceptance criteria:
+So that I can book a movie			    Given the trailers are embedded on a partner's website   
++++++++++++++++++++++++++++++++++++++++++++++++++   And customer selected to watch trailer of upcoming film
+Acceptance criteria:				    Then show trailer selected by customer
+Given the user has selected a movie		    +++++++++++++++++++++++++++++++++++++++++++++++++
+When they select amount of tickets		    +++++++++++++++++++++++++++++++++++++++++++++++++
+And click confirm			
+Then they are asked to select type of tickets	    US9
++++++++++++++++++++++++++++++++++++++++++++++++++++ As a staff member
++++++++++++++++++++++++++++++++++++++++++++++++++   I want a member portal
+						++  So that I can view booking information;
+US4						++  +++++++++++++++++++++++++++++++++++++++++++++++++
+						++  Acceptance criteria:
+As a user					++  Given the Staff Member is on member portal login page 
+I want to choose the type of tickets		++  And entered their login details
+So that I can book a movie			++  And clicked 'Log In'
+++++++++++++++++++++++++++++++++++++++++++++++++++  Then they gain access to view booking system
+Acceptance criteria:				++  +++++++++++++++++++++++++++++++++++++++++++++++++
+Given the user has selected amount of tickets	++  +++++++++++++++++++++++++++++++++++++++++++++++++
+When they select type of tickets
+And click confirm				++  US10
+Then they are asked to chose seats		++  As a staff member
+++++++++++++++++++++++++++++++++++++++++++++++++++  I want a member portal
+++++++++++++++++++++++++++++++++++++++++++++++++++  So that I can create a new booking
+						++  +++++++++++++++++++++++++++++++++++++++++++++++++
+US5						++  Acceptance criteria:
+						++  Given the Staff Member is on member portal login page
+As a user					++  And entered their login details
+I want to choose seats				++  And clicked 'Log In'
+So that I can book a movie			++  Then they gain non admin access to booking system
+++++++++++++++++++++++++++++++++++++++++++++++++++  +++++++++++++++++++++++++++++++++++++++++++++++++
+Acceptance criteria:				++  +++++++++++++++++++++++++++++++++++++++++++++++++
+Given the user has selected type of tickets	++  Time estimation for the project would be 10-12 weeks
+When they choose seats
+And click confirm
+Then they are sent tickets via email
++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
